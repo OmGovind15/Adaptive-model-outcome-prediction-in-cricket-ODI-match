@@ -59,8 +59,6 @@ def process_and_save_match_data(input_folder, output_folder):
             # Include 'batting_team', 'bowling_team', 'over', 'cumulative_runs', 'cumulative_wickets', 'balls_remaining', and 'wickets_remaining' columns
             match_data[['innings','batting_team', 'bowling_team', 'over', 'cumulative_runs', 'cumulative_wickets', 'balls_remaining', 'wickets_remaining']].to_csv(match_file_path, index=False)
 
-# Example usage:
-
 
 #process_and_save_match_data(r"C:\Users\91878\Documents\projects\New folder\odis_male_csv2\innings1\test", r"C:\Users\91878\Documents\projects\New folder\odis_male_csv2\innings1\test_processed")
 #process_and_save_match_data(r"C:\Users\91878\Documents\projects\New folder\odis_male_csv2\innings1\train", r"C:\Users\91878\Documents\projects\New folder\odis_male_csv2\innings1\train_processed")
