@@ -163,7 +163,7 @@ def process_match_data(folder_path_innings1, folder_path_innings2, stats_file_pa
         "not_found_bowling_players_innings_2": list(unique_not_found_bowling_2)
     }
 
-# Example usage:
+
 folder_path_innings1 = r"C:\Users\91878\Documents\projects\New folder\odis_male_csv2\innings1\train_processed"
 folder_path_innings2 = r"C:\Users\91878\Documents\projects\New folder\odis_male_csv2\innings2\train_processed"
 stats_file_path = r"C:\Users\91878\Documents\projects\New folder\odis_male_csv2\modified_file.csv"
