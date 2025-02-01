@@ -76,7 +76,7 @@ def process_and_save_match_data(input_folder_innings1, input_folder_innings2, ou
                 match_file_path, index=False
             )
 
-# Example usage:
+
 process_and_save_match_data(
     input_folder_innings1=r"C:\Users\91878\Documents\projects\New folder\odis_male_csv2\innings1\train",
     input_folder_innings2=r"C:\Users\91878\Documents\projects\New folder\odis_male_csv2\innings2\train",
