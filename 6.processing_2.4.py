@@ -60,7 +60,7 @@ def player_in_over(ball_by_ball_dir, over_by_over_dir, inning_number):
     else:
         print(f"No matches with multiple bowlers in an over for innings {inning_number}.")
 
-# Example usage for both innings 1 and 2
+
 player_in_over(r"C:\Users\91878\Documents\projects\New folder\odis_male_csv2\innings2\test", 
                r"C:\Users\91878\Documents\projects\New folder\odis_male_csv2\innings2\test_processed", 
                inning_number=2)
